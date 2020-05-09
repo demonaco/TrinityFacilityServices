@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+html {
+    font-family: 'Lato', sans-serif;
+}
+
+nav {
+ list-style: none;  
+}
+
+a {
+    text-decoration: none;
+    opacity: 0.75;
+    color: white;
+}
+
+a:hover {
+    opacity: 1;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 35px 100px 0;
+    background-color:black;
+}
+
+header nav {
+    display: flex;
+    margin-right: -15px;
+}
+
+header nav li {
+    margin: 0 15px;
+}
+
+/* Header => Body stylings */
+
+.jumbotron {
+    color: white;
+    background-image: url(/assets/images/clay-banks-cEzMOp5FtV4-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+  }
+
+  .covid-19-p {
+      padding-left: 500px;
+  }
+
+  li h3 {
+      font: white;
+  }
