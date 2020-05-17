@@ -59,9 +59,14 @@ header nav li {
       font: white;
   }
 
+  .aboutUs {
+      margin: auto 0;
+  }
+
   /* Contact page */
 
   @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
 
   
   #feedback-page{
@@ -118,7 +123,7 @@ header nav li {
       background: #fff;
       box-shadow: 0;
       border: 3px solid #3498db;
-      color: #3498db;
+      color: black;
       outline: none;
     padding: 13px 13px 13px 54px;
   }
