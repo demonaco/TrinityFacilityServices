@@ -1,27 +1,31 @@
+a {
+    text-decoration: none;
+    opacity: 0.75;
+    color: white;
+    
+}
+
+a:hover {
+    opacity: 1;
+    text-decoration: none;
+}
+
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Lato', sans-serif;
+    font-family: "Josefin Sans"
 }
 
 html {
-    font-family: 'Lato', sans-serif;
+    font-family: "Josefin Sans";
 }
 
 nav {
  list-style: none;  
 }
 
-a {
-    text-decoration: none;
-    opacity: 0.75;
-    color: white;
-}
-
-a:hover {
-    opacity: 1;
-}
 
 header {
     display: flex;
@@ -53,6 +57,7 @@ header nav li {
 
   .covid-19-p {
       padding-left: 500px;
+      font-size: 26px;
   }
 
   li h3 {
@@ -61,6 +66,30 @@ header nav li {
 
   .aboutUs {
       margin: auto 0;
+  }
+
+  hr {
+      width: 250px;
+      height: 2px;
+      background-color: black;
+      margin: auto;
+
+  }
+
+  section h3.aboutUs {
+    text-transform: capitalize;
+    font: bold 32px "Josefin Sans";
+    margin-bottom: 30px;
+    text-align: center;
+  }
+
+  .aboutUsP {
+      text-align: center;
+      
+  }
+
+  hr {
+      text-align: center;
   }
 
   /* Contact page */
