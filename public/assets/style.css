@@ -55,6 +55,15 @@ header nav li {
     height: 100vh;
   }
 
+  .jumbotron1 {
+    color: white;
+    background-image: url(/assets/images/fusion-medical-animation-EAgGqOiDDMg-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+  }
+
   .covid-19-p {
       padding-left: 500px;
       font-size: 26px;
