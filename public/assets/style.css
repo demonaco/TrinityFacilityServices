@@ -66,7 +66,13 @@ header nav li {
 
   .covid-19-p {
       padding-left: 500px;
-      font-size: 26px;
+      font-size: 22px;
+  }
+
+  .covid-services-p {
+      padding-top: 50px;
+    padding-left: 650px;
+    font-size: 22px;
   }
 
   li h3 {
