@@ -1,7 +1,7 @@
 a {
     text-decoration: none;
     opacity: 0.75;
-    color: white;
+    color: black;
     
 }
 
@@ -15,7 +15,8 @@ a:hover {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Josefin Sans"
+    font-family: "Josefin Sans";
+    text-decoration: none;
 }
 
 html {
@@ -26,13 +27,26 @@ nav {
  list-style: none;  
 }
 
+.phoneHeader {
+    height: 35px;
+    width: 100%;
+    background-color: black;
+    
+}
+
+#callNumber {
+    margin-left: 60em;
+    color: #f7f7f7
+    
+}
+
 
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 35px 100px 0;
-    background-color:black;
+    background-color: #f7f7f7;
 }
 
 header nav {
@@ -58,6 +72,15 @@ header nav li {
   .jumbotron1 {
     color: white;
     background-image: url(/assets/images/fusion-medical-animation-EAgGqOiDDMg-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+  }
+
+  .jumbotron2 {
+    color: white;
+    background-image: url(/assets/images/joel-mott-7zODz1HMHK4-unsplash.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
