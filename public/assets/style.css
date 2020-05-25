@@ -42,23 +42,27 @@ nav {
 }
 
 
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 35px 100px 0;
-    background-color: #f7f7f7;
-}
+ header {
+height: 200px;
+} 
 
 header nav {
     display: flex;
     margin-right: -15px;
-}
+
+} 
 
 header nav li {
     margin: 0 15px;
 }
 
+#brandName {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 24px;
+
+}
 /* Header => Body stylings */
 
 .jumbotron {
@@ -88,10 +92,23 @@ header nav li {
     height: 100vh;
   }
 
+  .containerServices {
+      padding-top: 90px;
+      padding-left: 270px;
+      
+  }
+
+  #laP {  
+      font-size: 20px;
+      padding-left: 162px;
+     
+}
+
   .covid-19-p {
       padding-left: 500px;
       font-size: 22px;
   }
+
 
   .covid-services-p {
       padding-top: 50px;
