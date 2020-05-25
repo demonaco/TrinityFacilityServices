@@ -1,4 +1,4 @@
-a {
+.navItem {
     text-decoration: none;
     opacity: 0.75;
     color: black;
@@ -7,6 +7,10 @@ a {
 
 a:hover {
     opacity: 1;
+    text-decoration: none;
+}
+
+a {
     text-decoration: none;
 }
 
@@ -32,6 +36,15 @@ nav {
     width: 100%;
     background-color: black;
     
+}
+
+#button {
+   padding: 10px 17px;
+   border-radius: 25px;
+   color: white;
+   background-color: #164c60;
+   margin-left: 310px;
+   margin-top: 20px;
 }
 
 #callNumber {
@@ -76,7 +89,7 @@ header nav {
 
 .jumbotron {
     color: white;
-    background-image: url(/assets/images/clay-banks-cEzMOp5FtV4-unsplash.jpg);
+    background-image: url(/assets/images/websiteimages01/HandrailSpray.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -101,6 +114,12 @@ header nav {
     height: 100vh;
   }
 
+
+  .h1Container{
+padding-left: 135px;
+padding-top: -15px;
+
+  }
   .containerServices {
       padding-top: 90px;
     text-align: center;
@@ -110,14 +129,26 @@ header nav {
   #laP {  
       font-size: 20px;
       padding-left: 162px;
+      text-align: center;
+
      
 }
 
+#covidP {
+    padding-left: 140px;
+}
+
   .covid-19-p {
+      padding-bottom: 15px;
+      margin-right: 35px;
+      margin-bottom: 30px;
       padding-left: 500px;
       font-size: 22px;
   }
 
+  blockquote {
+      padding-left: 160px;
+  }
 
   .covid-services-p {
       padding-top: 50px;
@@ -157,6 +188,50 @@ header nav {
       text-align: center;
   }
 
+  #smileGirl {
+      height: 500px;
+      width: 900px;
+      display: block;
+      justify-content: center;
+  }
+
+  #containerServicesOffered {
+      border: 2px solid black;
+      border-radius: 25px;
+      padding-left: 30px;
+      padding-top: 5px; 
+      height: 325px;
+      width: 800px;
+      margin: 0 auto;
+      font-size: 16px;
+      color: white;
+      background-color: #164c60;
+      
+  }
+
+li {
+    font-size: 16px;;
+}
+
+  .servicesLi {
+      line-height: 1em;
+  }
+
+  #safeHeart {
+      text-align: center;
+      margin-top: 40px;
+      margin-bottom: 35px;
+      font: 32px;
+  }
+
+  /* contact page */
+
+  #contacth1 {
+    align-content: center;
+    text-align: center;
+    margin-top: 40px;
+}
+
   /* Contact page */
 
   @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
@@ -182,7 +257,7 @@ header nav {
   }
   
   #form-div {
-      background-color:#3c3c3c;
+      background-color: #164c60;
       padding-left:35px;
       padding-right:35px;
       padding-top:35px;
@@ -196,7 +271,7 @@ header nav {
   
   .feedback-input {
       opacity:0.9;
-      color:#0493bd;
+      color:#8dcaee;
       font-family: 'Montserrat', Helvetica, Arial, sans-serif;
     font-weight:400;
       font-size: 18px;
@@ -216,15 +291,15 @@ header nav {
   .feedback-input:focus{
       background: #fff;
       box-shadow: 0;
-      border: 3px solid #3498db;
+      border: 3px solid #8dcaee;
       color: black;
       outline: none;
     padding: 13px 13px 13px 54px;
   }
   
   .focused{
-      color:#30aed6;
-      border:#30aed6 solid 3px;
+      color:#8dcaee;
+      border:#8dcaee solid 3px;
   }
   
   /* Icons ---------------------------------- */
@@ -281,7 +356,7 @@ header nav {
       width: 100%;
       border: #fbfbfb solid 4px;
       cursor:pointer;
-      background-color: #3498db;
+      background-color: #8dcaee;
       color:white;
       font-size:24px;
       padding-top:22px;
@@ -293,11 +368,11 @@ header nav {
   
   #button-blue:hover{
       background-color: rgba(0,0,0,0);
-      color: #0493bd;
+      color: #8dcaee;
   }
       
   .submit:hover {
-      color: #3498db;
+      color: #8dcaee;
   }
       
   .ease {
