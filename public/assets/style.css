@@ -24,7 +24,7 @@ html {
 }
 
 nav {
- list-style: none;  
+ list-style: none;
 }
 
 .phoneHeader {
@@ -41,28 +41,37 @@ nav {
     
 }
 
+#logo {
+height: 160px;
+width: 300px;
+margin-top: 10px;
+margin-bottom: 18px;
+margin-right: 33px;
 
- header {
-height: 200px;
+}
+
+header {
+height: 300px;
+text-align: center;
+padding-top: 10px;
+border-bottom: solid black 1px;
+
+
 } 
 
 header nav {
     display: flex;
-    margin-right: -15px;
-
+    justify-content: center    
+    
 } 
 
-header nav li {
-    margin: 0 15px;
+ li { 
+    margin: 20px;
+   padding-bottom: 25px;
+   margin-bottom: 15px;
 }
 
-#brandName {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    font-size: 24px;
 
-}
 /* Header => Body stylings */
 
 .jumbotron {
@@ -94,7 +103,7 @@ header nav li {
 
   .containerServices {
       padding-top: 90px;
-      padding-left: 270px;
+    text-align: center;
       
   }
 
