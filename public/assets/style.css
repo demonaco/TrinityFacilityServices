@@ -34,7 +34,7 @@ nav {
 .phoneHeader {
     height: 35px;
     width: 100%;
-    background-color: black;
+    background-color: #164c60;
     
 }
 
@@ -91,6 +91,7 @@ header nav {
     color: white;
     background-image: url(/assets/images/websiteimages01/HandrailSpray.png);
     background-position: center;
+    font-family: "Josefin Sans";
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
@@ -206,11 +207,13 @@ padding-top: -15px;
       font-size: 16px;
       color: white;
       background-color: #164c60;
+      list-style: none;
       
   }
 
 li {
     font-size: 16px;;
+    list-style: none;
 }
 
   .servicesLi {
@@ -230,6 +233,19 @@ li {
     align-content: center;
     text-align: center;
     margin-top: 40px;
+}
+
+footer {
+    height: 75px;
+    width: 100%;
+    background-color: 
+    #164c60;
+    color: white;
+}
+
+.footerName {
+    text-align: center;
+    padding-top: 37px;
 }
 
   /* Contact page */
