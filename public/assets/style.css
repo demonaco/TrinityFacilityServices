@@ -38,7 +38,7 @@ html {
     height: 100%;
 }
 
-nav {
+ul, nav {
  list-style: none;
 }
 
@@ -97,6 +97,34 @@ header nav {
    margin-bottom: 15px;
 }
 
+.grid {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+
+}
+
+.grid li {
+    height: 350px;
+    padding: 20px;
+    background-clip: content-box;
+    background-size: cover;
+    background-position: center;
+    border: 1px #164c60 solid;
+
+}
+
+.grid li.small {
+    flex-basis: 25%;
+
+}
+
+.grid li.large {
+    flex-basis: 50%;
+    
+}
 
 /* Header => Body stylings */
 
@@ -137,6 +165,15 @@ header nav {
     height: 90vh; 
   }
 
+  .jumbotronVenue {
+    color: white;
+    background-image: url(/assets/images/facility.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh; 
+  }
+
 
   .h1Container{
 padding-left: 135px;
@@ -166,6 +203,21 @@ padding-top: -15px;
     margin-left: 850px;
     font-size: 22px;
     
+  }
+
+.venueH1 {
+
+font-size: 34px;
+padding-top: 35px;
+padding-left: 0px;
+font-weight: 900;
+padding-right: 120px;
+color:;
+  }
+
+  .containerVenue{
+padding-left: 70px;
+text-shadow: black;
   }
 
 #contactP {
@@ -338,6 +390,16 @@ footer {
 .footerName {
     text-align: center;
     padding-top: 37px;
+}
+
+#coverageMap {
+    margin-left: auto;
+    margin-right: auto;    
+    display: block;
+    height: 450px;
+    width: 900px;
+    border: 2px solid #164c60;
+    
 }
 
   /* Contact page */
