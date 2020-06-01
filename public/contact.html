@@ -45,18 +45,19 @@
    <section>
     <div id="form-main">
         <div id="form-div">
-          <form class="form" id="form1">
+          <form class="form" id="form1" action="https://formspree.io/meqrgqgn"
+          method="POST">
       
             <p class="name">
               <input name="name" type="text" class="validate[required,custom[onlyLetter],length[0,100]] feedback-input" placeholder="Name" id="name" required />
             </p>
             
             <p class="email">
-              <input name="email" type="text" class="validate[required,custom[email]] feedback-input" id="email" placeholder="Email" required/>
+              <input name="_replyto" type="text" class="validate[required,custom[email]] feedback-input" id="email" placeholder="Email" required/>
             </p>
             
             <p class="text">
-              <textarea name="text" class="validate[required,length[6,300]] feedback-input" id="comment" placeholder="How can we help you?" required></textarea>
+              <textarea name="message" class="validate[required,length[6,300]] feedback-input" id="comment" placeholder="How can we help you?" required></textarea>
             </p>
             
             <div class="submit">
