@@ -329,7 +329,7 @@ text-shadow: black;
       margin-top: 40px;
   }
 
-  iFrame {
+  iframe {
       display: block;
       margin-right: auto;
       margin-left: auto;
@@ -774,6 +774,12 @@ margin-right: 100px;
     hr {
         width: 450px;
     }
+
+    #containerGeneral {
+        width: 550px;
+        padding-left: 10px;
+        height: 240px;
+    }
 }
 
 
@@ -836,6 +842,18 @@ margin-right: 100px;
     }
 
   }
+
+  @media only screen and (max-width: 769px) {
+/* div.container.covid-19-p {
+    padding-left: 100px;
+    margin-left: 100px;
+} */
+
+.h1Hero {
+padding-right: 20px;
+}
+   
+    }
 
   @media screen and (max-width:744px){
 
@@ -1020,7 +1038,7 @@ margin-right: 100px;
         height: 300px;
        }
 
-        iFrame {
+        iframe {
             width: 490px;
         }
 
@@ -1102,6 +1120,11 @@ ul.grid.facilitiesGrid li.large{
             margin-left: 70px;
         }
 
+        #containerGeneral {
+            width: 374px;
+        height: 280px;
+        }
+
     }
 
 
@@ -1127,13 +1150,147 @@ ul.grid.facilitiesGrid li.large{
             margin-left: 0px;
         }
 
-    }
-
-
-    @media screen and (max-width:525px){
-    
-        div.container.covid-19-p {
-            margin-left: -15px;
-            margin-right: 0px;
+        #containerGeneral {
+            width: 499px;
         }
+
+        h1.laH1 {
+            padding:  0px  0px  0px  0px;
+        }
+
     }
+
+
+ 
+@media only screen and (min-device-width: 320px) 
+and (max-device-width: 568px) {
+
+    
+
+    div.container.covid-19-p {
+        margin-left: 0px;
+        margin-right: 0px;
+         padding-left: 160px;
+         font-size: 16px;
+         width: 375px;
+         
+    }
+
+   nav {
+        margin-bottom: 0px;
+        margin-top: 0px;
+        padding-top: 0px;
+    }
+   
+
+    h2.font {
+        font-size: 18px;
+    }
+
+    h1.display-4.h1Container.h1Hero {
+        font-size: 16px;
+        padding-left: 10px;
+        width: 200px;
+        margin-left: 0px;
+        margin
+    }
+
+    blockquote {
+        font-size: 8px;
+        padding-left: 5px;
+        width: 200px;
+        margin-left: 0px;
+    }
+
+    p#covidP {
+        font-size: 8px;
+        padding-left: 0px;
+        width: 200px;
+        margin-left: 0px;
+        margin-bottom: 0px;
+        
+
+    }
+
+    button#button {
+        font-size: 16px;
+       width: 120px;
+       height: 90px;
+       margin-left: 0px;
+       margin-right: 0px;
+       
+    }
+   
+
+    #containerMain {
+        width: 300px;
+        height: 243px;
+    }
+
+    #infographic {
+        width: 375px;
+
+    }
+
+    hr {
+        width: 300px;
+    }
+
+    
+
+    #callNumber {
+        font-size: 12px;
+        margin-left: 60px;
+    }
+
+    .h1.display-4 {
+        font-size: 16px;
+        padding-right: 32px;
+    }
+
+    a.navItem {
+        font-size: 7px;
+        font-weight: bold;
+       
+    }
+
+    #disenfectGuy {
+        width: 320px;
+        height: 200px;
+    }
+
+    iframe {
+        width: 320px;
+    }
+
+    .jumbotronContact{
+        margin-top: 0px;
+    }
+
+    h2.i {
+        font-size: 18px;
+
+    }
+
+    #containerGeneral {
+        width: 300px;
+        height: 370px;
+    }
+
+    div.ulList {
+        margin-left: 40px;
+    }
+    div.ulListOther {
+        margin-right: 460px;
+       
+        
+    }
+
+    #coverageMap {
+        width: 375px;
+    }
+
+}
+   
+
+  
